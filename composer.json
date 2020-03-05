@@ -1,0 +1,13 @@
+{
+    "name": "loulatch/docx-conversion-on-symfony",
+    "license": "",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": "^7.3",
+        "phpoffice/phpword": "^0.17.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
