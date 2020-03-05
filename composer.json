@@ -4,10 +4,17 @@
     "description": "A short description of what your package does",
     "require": {
         "php": "^7.3",
-        "phpoffice/phpword": "^0.17.0"
+        "phpoffice/phpword": "^0.17.0",
+        "symfony/symfony": "^3.4.0",
+        "doctrine/orm": "2.7.*"
     }
     ,
     "require-dev": {
         "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Loulatch\\DocxConverterBundle\\": ""
+        }
     }
 }
