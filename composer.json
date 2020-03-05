@@ -1,6 +1,6 @@
 {
     "name": "loulatch/docx-conversion-on-symfony",
-    "license": "",
+    "license": "MIT",
     "description": "A short description of what your package does",
     "require": {
         "php": "^7.3",
